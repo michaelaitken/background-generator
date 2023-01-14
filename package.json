@@ -4,7 +4,7 @@
   "description": "Experimenting with Github using one of my first small web development projects.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
