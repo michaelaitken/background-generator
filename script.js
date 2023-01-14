@@ -1,3 +1,6 @@
+var _ = require('lodash');
+
+console.log(_)
 var backgroundText = document.querySelector("h3");
 var leftColor = document.querySelector(".leftColor");
 var rightColor = document.querySelector(".rightColor");
